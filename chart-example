@@ -1,0 +1,73 @@
+# =====================================================
+# BYBIT ELITE SIGNAL — НАСТРОЙКИ ВИЗУАЛИЗАЦИИ ГРАФИКА
+# Скопируйте этот файл в .env.chart
+# cp config.chart .env.chart
+# =====================================================
+
+# ---- Размер изображения ----
+CHART_WIDTH=1280
+CHART_HEIGHT=720
+
+# ---- Фон и сетка ----
+CHART_BG=#131722
+CHART_GRID=#1e222d
+
+# ---- Свечи ----
+CHART_CANDLE_COUNT=50        # Количество свечей контекста (10-50)
+CHART_BULL_COLOR=#26a69a     # Цвет бычьей свечи
+CHART_BEAR_COLOR=#ef5350     # Цвет медвежьей свечи
+CHART_CANDLE_WIDTH=0.65      # Ширина тела (0.3-0.9)
+
+# ---- Order Block ----
+CHART_OB_FILL_R=128
+CHART_OB_FILL_G=0
+CHART_OB_FILL_B=128
+CHART_OB_FILL_A=64
+CHART_OB_BORDER=#9c27b0
+CHART_OB_LABEL=OB
+
+# ---- FVG (Fair Value Gap) ----
+CHART_FVG_FILL_R=0
+CHART_FVG_FILL_G=128
+CHART_FVG_FILL_B=0
+CHART_FVG_FILL_A=51
+CHART_FVG_BORDER=#4caf50
+CHART_FVG_LABEL=FVG
+
+# ---- Канал ----
+CHART_CHANNEL_COLOR=#2196f3
+CHART_CHANNEL_FILL_A=13
+
+# ---- S/R уровни ----
+CHART_SR_COLOR=#546e7a
+
+# ---- Зона входа ----
+CHART_ENTRY_FILL_A=38
+CHART_ENTRY_BORDER=#ffeb3b
+CHART_ENTRY_LABEL=ВХОД
+
+# ---- Стоп-лосс ----
+CHART_SL_COLOR=#f44336
+CHART_SL_FILL_A=20
+CHART_SL_LABEL=СЛ
+
+# ---- Тейк-профит ----
+CHART_TP_COLOR=#4caf50
+CHART_TP_FILL_A=20
+CHART_TP_LABEL=ТП
+
+# ---- Стрелка направления ----
+CHART_ARROW_COLOR=#2196f3
+
+# ---- Текущая цена ----
+CHART_CURRENT_PRICE_COLOR=#546e7a
+
+# ---- Подпись источника ----
+CHART_WATERMARK=Bybit Futures
+CHART_WATERMARK_COLOR=#37474f
+
+# ---- Шрифт (опционально) ----
+# CHART_FONT_PATH=./charts/fonts/font.ttf
+
+# ---- Сохранение файлов ----
+CHART_SAVE_DIR=./charts/output
